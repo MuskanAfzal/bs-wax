@@ -82,6 +82,8 @@ Local and Vercel deployments share data when they use the same Supabase project.
 Visit `/admin/` and use `ADMIN_PASSWORD`.
 
 - **Overview:** request and service counts.
+- **Website content:** edit homepage headings, descriptions, button text, comparison caption and the three main photos. Select **Save changes** to publish.
+- **Image gallery:** choose original photos or any previous upload for homepage photos and transformations. Replacing a photo never deletes it from private storage; unpublished photos are visible only to signed-in admins.
 - **Booking requests:** search, filter, view details, contact by email/phone, change status, export CSV and delete with confirmation.
 - **Services:** edit names, descriptions, starting prices, features, visibility and duration notes.
 - **Transformations:** add real before/after pairs; upload photos up to 3 MB; edit captions and publish.
@@ -109,6 +111,10 @@ API integration tests run against an in-memory **PostgreSQL engine (PGlite)**, n
 Builds and these tests do not need Supabase credentials. A real Supabase/Vercel smoke test is still required after you configure your project’s environment variables; credentials are not bundled with the code.
 
 ## Troubleshooting
+
+Run `npm run check:backend` after configuring `.env.local` (or in an environment with your deployment variables). It checks variable formats, database connectivity and tables, and the private storage bucket without printing credentials or writing data. A successful build alone does not check the backend connection.
+
+For Vercel, open **Project Settings → Environment Variables** and verify the four required variables are set for the environment serving the affected URL (Production or Preview), then **redeploy**. If the server logs report `BACKEND_NOT_CONFIGURED`, the updated log lists the missing or placeholder variable names. Run `database/schema.sql` and `database/storage.sql` in the same Supabase project used by those variables. Never put secret values in browser code or public logs.
 
 - **Homepage works but admin says requests are not ready:** add all four required variables, run the SQL files, and redeploy.
 - **Database errors:** use the pooler URI on port 6543; check the password, project reference and region; ensure `database/schema.sql` ran successfully.
