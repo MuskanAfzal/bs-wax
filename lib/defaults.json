@@ -1,8 +1,8 @@
 {
   "settings": {
     "brand": "B’s Wax Auto Spa",
-    "headline": "A little buzz.\nA whole new feeling.",
-    "description": "Premium mobile interior detailing brought directly to you. Give your car the spa day it deserves, with interior packages starting at $95.",
+    "headline": "Mobile Interior\nDetailing.",
+    "description": "Give your car the spa day it deserves. Premium mobile interior detailing at your location, with packages from $95. Choose your service and book online.",
     "area": "Sugar Land · Missouri City · Stafford · Richmond · Rosenberg · Katy · Pearland & surrounding areas",
     "instagram": "https://www.instagram.com/bwax.autospa/",
     "phone": "346-246-2358",
@@ -133,7 +133,7 @@
       "a": "Text B’s Wax at 346-246-2358 or message @bwax.autospa on Instagram."
     }
   ],
-  "contentVersion": 1,
+  "contentVersion": 2,
   "addons": [
     {
       "id": "pet-hair",

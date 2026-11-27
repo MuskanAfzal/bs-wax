@@ -139,4 +139,6 @@ See `ASSETS.md` for the comparison-image editing note.
 
 Packages, add-ons, service areas, phone number, Koalendar link and five transformation pairs follow https://bswaxmobileautospa.netlify.app/ (checked 2026-11-27). Existing homepage imagery and styles are preserved. The Services tab also edits add-ons and their price labels. Site settings controls the optional online booking URL; the existing request form continues to work.
 
-Existing database content is upgraded when read: only fields still matching the original placeholders are replaced, custom edits and existing portfolio photos are kept, and reference pairs are appended. Save once in admin to persist `contentVersion: 1`; subsequent removals and edits are then retained. No tables or credentials change.
+Existing database content is upgraded when read: only fields still matching the original placeholders are replaced, custom edits and existing portfolio photos are kept, and reference pairs are appended. Save once in admin to persist `contentVersion: 2`; subsequent removals and edits are then retained. No tables or credentials change.
+
+The estimate builder uses current package prices and add-on labels from Services. It supports fixed amounts, ranges, minimum prices and per-item quantities. Unknown price labels and severely soiled interiors require a quote. Downloaded estimates and booking notes include the same line items; totals are estimates rather than payment receipts. Existing default homepage copy is migrated to the reference wording while customized text and image selections stay intact.
