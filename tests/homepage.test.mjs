@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {api} from '../server/api.mjs';
 import {makeEnv} from '../scripts/test-env.mjs';
+import defaults from '../lib/defaults.json' with {type:'json'};
 import {homepageDefaults} from '../lib/homepage.mjs';
 const req=(path,method='GET',data,cookie)=>new Request('https://example.test'+path,{method,headers:{...(cookie?{cookie}:{}),'content-type':'application/json'},...(data?{body:JSON.stringify(data)}:{})});
 
@@ -14,7 +15,7 @@ test('homepage defaults, edits, validation and retained gallery images',async()=
   assert.deepEqual(content.homepage,homepageDefaults);
   assert.equal((await api(req('/api/admin/media'),env)).status,401);
   const original=await (await api(req('/api/admin/media','GET',null,cookie),env)).json();
-  assert.equal(original.images.length,3);
+  assert.equal(original.images.length,3+defaults.portfolio.length*2);
   await env.BUCKET.put('first.jpg',new Uint8Array([255,216,255]),{httpMetadata:{contentType:'image/jpeg'}});
   await env.BUCKET.put('second.jpg',new Uint8Array([255,216,255]),{httpMetadata:{contentType:'image/jpeg'}});
   const save=()=>api(req('/api/admin/content','PUT',content,cookie),env);

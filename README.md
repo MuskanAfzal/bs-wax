@@ -133,3 +133,10 @@ For Vercel, open **Project Settings → Environment Variables** and verify the f
 - Business reference: https://www.instagram.com/bwax.autospa/
 
 See `ASSETS.md` for the comparison-image editing note.
+
+
+## Reference business content
+
+Packages, add-ons, service areas, phone number, Koalendar link and five transformation pairs follow https://bswaxmobileautospa.netlify.app/ (checked 2026-11-27). Existing homepage imagery and styles are preserved. The Services tab also edits add-ons and their price labels. Site settings controls the optional online booking URL; the existing request form continues to work.
+
+Existing database content is upgraded when read: only fields still matching the original placeholders are replaced, custom edits and existing portfolio photos are kept, and reference pairs are appended. Save once in admin to persist `contentVersion: 1`; subsequent removals and edits are then retained. No tables or credentials change.

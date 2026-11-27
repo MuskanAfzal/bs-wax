@@ -1,1 +1,188 @@
-{"settings":{"brand":"B’s Wax Auto Spa","headline":"A little buzz.\nA whole new feeling.","description":"Your daily drive deserves a fresh start. Mobile interior detailing, brought right to your driveway.","area":"Southwest Houston & surrounding areas","instagram":"https://www.instagram.com/bwax.autospa/","phone":"","email":"","hours":"By appointment","notice":"Concept website · Service details are subject to confirmation.","blockedDates":[],"times":["9:00 AM","11:00 AM","1:00 PM","3:00 PM"],"bookingEnabled":true},"services":[{"id":"refresh","name":"The Refresh","tag":"A fresh start","description":"For the everyday miles. Give your cabin a thoughtful reset.","price":null,"duration":"Time confirmed with your quote","features":["Interior vacuum","Surfaces & dashboard","Interior glass"],"active":true},{"id":"deep","name":"The Deep Clean","tag":"Go deeper","description":"Extra attention for the spaces that need a little more love.","price":null,"duration":"Time confirmed with your quote","features":["Detailed interior vacuum","Seats & carpet attention","Crevices & hard-to-reach areas","Interior glass & surfaces"],"active":true},{"id":"restore","name":"The Full Hive","tag":"The complete reset","description":"A tailored interior detail, built around your car’s condition.","price":null,"duration":"Time confirmed with your quote","features":["Full interior assessment","Focused stain treatment","Detailed cabin care","Finishing touches"],"active":true}],"portfolio":[],"faqs":[{"q":"Do you come to me?","a":"Yes. B’s Wax Auto Spa offers mobile interior detailing in Southwest Houston and surrounding areas. Share your ZIP code when requesting a detail so we can confirm coverage."},{"q":"How much will my detail cost?","a":"Request a quote with your vehicle type and main concerns. The team will confirm the service, price and time before your appointment is booked."},{"q":"Is my appointment confirmed when I submit?","a":"Your submission is a request. The team will contact you to confirm availability and the final details."},{"q":"Can every stain be removed?","a":"Results depend on the material, condition and age of the stain. The team can assess what is achievable before starting."}]}
+{
+  "settings": {
+    "brand": "B’s Wax Auto Spa",
+    "headline": "A little buzz.\nA whole new feeling.",
+    "description": "Premium mobile interior detailing brought directly to you. Give your car the spa day it deserves, with interior packages starting at $95.",
+    "area": "Sugar Land · Missouri City · Stafford · Richmond · Rosenberg · Katy · Pearland & surrounding areas",
+    "instagram": "https://www.instagram.com/bwax.autospa/",
+    "phone": "346-246-2358",
+    "email": "",
+    "hours": "By appointment",
+    "notice": "Final pricing varies by vehicle size and condition. Severely soiled interiors require a quote.",
+    "blockedDates": [],
+    "times": [
+      "9:00 AM",
+      "11:00 AM",
+      "1:00 PM",
+      "3:00 PM"
+    ],
+    "bookingEnabled": true,
+    "bookingUrl": "https://koalendar.com/e/bwaxautospa"
+  },
+  "services": [
+    {
+      "id": "refresh",
+      "name": "The Sweet Refresh",
+      "tag": "Maintenance",
+      "description": "Vacuum, surfaces, windows, mats and light spot cleaning.",
+      "price": 95,
+      "duration": "Time confirmed with your quote",
+      "features": [
+        "Interior vacuum",
+        "Surface cleaning",
+        "Interior windows",
+        "Floor mats",
+        "Light spot cleaning"
+      ],
+      "active": true
+    },
+    {
+      "id": "deep",
+      "name": "The Golden Reset",
+      "tag": "Most Popular",
+      "description": "Deep vacuum, steam, carpet and mat cleaning, spot extraction and deodorizing.",
+      "price": 155,
+      "duration": "Time confirmed with your quote",
+      "features": [
+        "Deep interior vacuum",
+        "Steam cleaning",
+        "Carpet and mat cleaning",
+        "Spot extraction",
+        "Deodorizing"
+      ],
+      "active": true
+    },
+    {
+      "id": "restore",
+      "name": "B’s Wax Signature",
+      "tag": "Full Interior",
+      "description": "Full extraction, deep stain treatment, steam, leather conditioning and odor neutralization.",
+      "price": 225,
+      "duration": "Time confirmed with your quote",
+      "features": [
+        "Full extraction",
+        "Deep stain treatment",
+        "Steam cleaning",
+        "Leather conditioning",
+        "Odor neutralization"
+      ],
+      "active": true
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "reference-truck_rear",
+      "title": "Truck Rear Interior",
+      "category": "Interior detail",
+      "before": "/images/results/truck_rear_before.webp",
+      "after": "/images/results/truck_rear_after.webp",
+      "description": "Truck Rear Interior before and after an interior detail by B’s Wax Auto Spa."
+    },
+    {
+      "id": "reference-truck_front",
+      "title": "Truck Front Interior",
+      "category": "Interior detail",
+      "before": "/images/results/truck_front_before.webp",
+      "after": "/images/results/truck_front_after.webp",
+      "description": "Truck Front Interior before and after an interior detail by B’s Wax Auto Spa."
+    },
+    {
+      "id": "reference-suv_front",
+      "title": "SUV Front Interior",
+      "category": "Interior detail",
+      "before": "/images/results/suv_front_before.webp",
+      "after": "/images/results/suv_front_after.webp",
+      "description": "SUV Front Interior before and after an interior detail by B’s Wax Auto Spa."
+    },
+    {
+      "id": "reference-suv_rear",
+      "title": "SUV Rear Interior",
+      "category": "Interior detail",
+      "before": "/images/results/suv_rear_before.webp",
+      "after": "/images/results/suv_rear_after.webp",
+      "description": "SUV Rear Interior before and after an interior detail by B’s Wax Auto Spa."
+    },
+    {
+      "id": "reference-car_rear",
+      "title": "Car Rear Interior",
+      "category": "Interior detail",
+      "before": "/images/results/car_rear_before.webp",
+      "after": "/images/results/car_rear_after.webp",
+      "description": "Car Rear Interior before and after an interior detail by B’s Wax Auto Spa."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you come to me?",
+      "a": "Yes. B’s Wax is fully mobile. We serve Sugar Land, Missouri City, Stafford, Richmond, Rosenberg, Katy, Pearland and surrounding areas."
+    },
+    {
+      "q": "How much does an interior detail cost?",
+      "a": "The Sweet Refresh starts at $95, The Golden Reset at $155 and B’s Wax Signature at $225. Final pricing varies by vehicle size and condition. Severely soiled interiors require a quote."
+    },
+    {
+      "q": "Can I add extra care to my package?",
+      "a": "Yes. Options include heavy pet hair removal, additional stain or odor treatment, child car seat cleaning, trunk or cargo deep cleaning, and headliner spot treatment. Final add-on pricing depends on condition and labor needed."
+    },
+    {
+      "q": "How do I check availability?",
+      "a": "View available appointment times in Koalendar, choose your service and share your vehicle details. Final pricing is based on vehicle size and condition, and photos may be requested if needed. You can also send a request through this website."
+    },
+    {
+      "q": "How can I ask a question before booking?",
+      "a": "Text B’s Wax at 346-246-2358 or message @bwax.autospa on Instagram."
+    }
+  ],
+  "contentVersion": 1,
+  "addons": [
+    {
+      "id": "pet-hair",
+      "name": "Heavy Pet Hair",
+      "description": "Extra removal time for embedded hair.",
+      "priceLabel": "+$35–$75",
+      "active": true
+    },
+    {
+      "id": "staining",
+      "name": "Excessive Staining",
+      "description": "Additional stain treatment beyond your package.",
+      "priceLabel": "+$35–$75",
+      "active": true
+    },
+    {
+      "id": "odor",
+      "name": "Heavy Odor Treatment",
+      "description": "Additional odor-neutralizing treatment.",
+      "priceLabel": "+$40",
+      "active": true
+    },
+    {
+      "id": "car-seat",
+      "name": "Child Car Seat Cleaning",
+      "description": "Added to your interior service.",
+      "priceLabel": "+$20 each",
+      "active": true
+    },
+    {
+      "id": "cargo",
+      "name": "Trunk / Cargo Deep Clean",
+      "description": "Extra attention for the cargo area.",
+      "priceLabel": "+$25",
+      "active": true
+    },
+    {
+      "id": "headliner",
+      "name": "Headliner Spot Treatment",
+      "description": "Careful spot treatment as appropriate.",
+      "priceLabel": "+$25+",
+      "active": true
+    },
+    {
+      "id": "headlights",
+      "name": "Headlight Restoration",
+      "description": "Restoration for a pair of headlights.",
+      "priceLabel": "From $60 / pair",
+      "active": true
+    }
+  ]
+}

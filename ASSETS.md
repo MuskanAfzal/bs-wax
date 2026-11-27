@@ -7,3 +7,8 @@
 Editing prompt: Preserve the reference vehicle, framing, geometry, lighting and colours. Add clearly visible physical mess: crumpled paper takeaway bag, empty water bottle, receipts, food crumbs, dirty footprints, mud flecks, dusty console seams, coffee residue and upholstery grime. Use believable contact shadows. Do not apply a filter, change the vehicle, add people, text or a watermark, or create a split collage.
 
 The clean and dirty images use matching framing for the interactive slider. Admin-uploaded real transformations are shown separately.
+
+
+## Reference business photos
+
+The ten photos under `public/images/results/` were copied from the user-specified reference site, https://bswaxmobileautospa.netlify.app/assets/images/, on 2026-11-27. The source labels the five pairs as actual B’s Wax results: truck rear, truck front, SUV front, SUV rear and car rear. They are added to Transformations and the reusable admin gallery. Existing hero, illustrative comparison and mobile-story photos are preserved.
